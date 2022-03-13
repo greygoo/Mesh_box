@@ -27,4 +27,11 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ### Reticulum
 
+### Access Point
 
+
+## Casing
+
+### With Battery
+
+### Without Battery
