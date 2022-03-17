@@ -3,25 +3,37 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ## Required Hardware
 - Banana Pi Zero
-![bP1 zero front](images/bPi_zero_front.jpg)
-![bP1 zero back](images/bPi_zero_back.jpg)
+<p align="center" width="100%">
+  <img width="49%" src="images/bPi_zero_front.jpg">
+  <img width="49%" src="images/bPi_zero_back.jpg">
+</p>
+
 - ESP32 based LoRa T3 module
-![T3 front](images/T3_front.jpg)
-![T3 back](images/T3_back.jpg)
+<p align="center" width="100%">
+  <img width="49%" src="images/T3_front.jpg">
+  <img width="49%" src="images/T3_back.jpg">
+</p>
+
 - Optional: Battery module
-![Battery front](images/battery_front.jpg)
-![Battery back](images/battery_back.jpg)
+<p align="center" width="100%">
+  <img width="49%" src="images/battery_front.jpg">
+  <img width="49%" src="images/battery_back.jpg">
+</p>
+
 - Cables & Connectors
 - WIFI Antenna for Banana Pi Zero
 
 ## Hardware setup
 
 ### Connect to bPi Serial Debug Interface
-![bP1 zero serial front](images/bPi_zero_serial_front.jpg)
-![bP1 zero serial_back](images/bPi_zero_serial_back.jpg)
-![bP1 zero ftdi](images/bPi_zero_ftdi.jpg)
-![bP1 zero serial_all](images/bPi_zero_serial_all.jpg)
-
+<p align="center" width="100%">
+  <img width="49%" src="images/bPi_zero_serial_front.jpg">
+  <img width="49%" src="images/bPi_zero_serial_back.jpg">
+</p>
+<p align="center" width="100%">
+  <img width="49%" src="images/bPi_zero_ftdi.jpg">
+  <img width="49%" src="images/bPi_zero_serial_all.jpg">
+</p>
 
 ### Connect bPi with ESP32
 
