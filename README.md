@@ -31,8 +31,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
   <img width="49%" src="images/bPi_zero_serial_back.jpg">
 </p>
 <p align="center" width="100%">
-  <img width="49%" src="images/bPi_zero_ftdi.jpg">
-  <img width="49%" src="images/bPi_zero_serial_all.jpg">
+  <img width="32%" src="images/bPi_zero_ftdi.jpg">
+  <img width="32%" src="images/bPi_zero_serial_all.jpg">
+  <img width="32%" src="images/bPi_zero_schema_ftdi.png">
 </p>
 
 ### Connect bPi with ESP32
