@@ -18,9 +18,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ### Connect to bPi Serial Debug Interface
 ![bP1 zero serial front](images/bPi_zero_serial_front.jpg)
-![bP1 zero serial_back](images/banana_pi_zero_serial_back.jpg)
-![bP1 zero ftdi](images/banana_pi_ftdi.jpg)
-![bP1 zero serial_all](images/banana_pi_zero_serial_all.jpg)
+![bP1 zero serial_back](images/bPi_zero_serial_back.jpg)
+![bP1 zero ftdi](images/bPi_zero_ftdi.jpg)
+![bP1 zero serial_all](images/bPi_zero_serial_all.jpg)
 
 
 ### Connect bPi with ESP32
