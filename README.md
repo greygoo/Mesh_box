@@ -22,6 +22,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 - Cables & Connectors
 - WIFI Antenna for Banana Pi Zero
+<p align="center" width="100%">
+  <img width="49%" src="images/antenna/antenna_cables.jpg">
+</p>
 
 ## Hardware setup
 
@@ -38,7 +41,18 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ### Connect bPi with ESP32
 
+<p align="center" width="100%">
+  <img width="32%" src="images/T3/T3_back_with_cables.jpg">
+  <img width="32%" src="images/T3/T3_front_with_cables.jpg">
+  <img width="32%" src="images/connected/T3_bPi_zero_connected.jpg">
+</p>
+
 ### Connect with Power Source
+
+<p align="center" width="100%">
+  <img width="49%" src="images/battery/battery_with_cables.jpg">
+  <img width="49%" src="images/connected/T3_bPi_zero_battery_connected.jpg">
+</p>
 
 
 ## Software Setup
