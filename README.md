@@ -22,7 +22,8 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 - Cables & Connectors
 - WIFI Antenna for Banana Pi Zero
-<p align="center" width="100%">
+
+<p align="left" width="100%">
   <img width="49%" src="images/antenna/antenna_cables.jpg">
 </p>
 
