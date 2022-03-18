@@ -16,8 +16,8 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 - Optional: Battery module
 <p align="center" width="100%">
-  <img width="49%" src="images/battery/battery_front.jpg">
-  <img width="49%" src="images/battery/battery_back.jpg">
+  <img width="49%" src="images/battery/battery_board_front.jpg">
+  <img width="49%" src="images/battery/battery_board_back.jpg">
 </p>
 
 - Cables & Connectors
@@ -31,8 +31,8 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
   <img width="49%" src="images/bPi_zero/bPi_zero_back_with_serial.jpg">
 </p>
 <p align="center" width="100%">
-  <img width="32%" src="images/bPi_zero/connected/bPi_zero_ftdi.jpg">
-  <img width="32%" src="images/bPi_zero/bPi_zero_serial_ftdi.jpg">
+  <img width="32%" src="images/connected/bPi_zero_ftdi.jpg">
+  <img width="32%" src="images/connected/bPi_zero_ftdi_usb.jpg">
   <img width="32%" src="images/schema/bPi_zero_schema_ftdi.png">
 </p>
 
