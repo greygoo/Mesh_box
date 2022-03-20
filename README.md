@@ -132,7 +132,13 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ### Required Software
 
+- Install required packages
+  `apt install python3-pip python3-all-dev libffi-dev rustc cargo`
+
 ### Python Modules
+
+- Install required python modules
+  `pip3 install rnodeconf`
 
 ### Reticulum
 
