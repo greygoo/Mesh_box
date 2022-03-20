@@ -5,10 +5,10 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 - Banana Pi Zero
 <p align="center" width="100%">
   <div class="img-with-text">
-    <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg"/> Banana Pi Zero (frontside)
+    <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg"> Banana Pi Zero (frontside)
   </div>
   <div class="img-with-text">
-    <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg"/> Banana Pi Zero (backside)
+    <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg"> Banana Pi Zero (backside)
   </div>
 </p>
 
