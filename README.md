@@ -113,6 +113,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
   <img width="49%" src="images/screenshots/nmtui_select.png">
 </p>
 
+- Show ip adress
+  `ip a l wlan0 | awk '/inet/ {print $2}'`
+
 ### System Setup
 
 - Login to the bPi using ssh
