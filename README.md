@@ -58,16 +58,16 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 
 ## Software Setup
 
-- Download Armbian image and checksum
-  `wget https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz`
+- Download Armbian image and checksum<br>
+  `wget https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz`<br>
   `wget https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz.asc`
 
-- Verify checksum
+- Verify checksum<br>
   `sha256sum -c Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz.sha`
-  Output should be:
+Output should be:<br>
   `Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz: OK`
 
-- Extract archive
+- Extract archive<br>
   `xz -d Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz`
 
 - Transfer image to microSD card
@@ -81,7 +81,7 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
     [454115.854150] sd 6:0:0:0: Attached scsi generic sg1 type 0
     [454115.856826] sd 6:0:0:0: [sda] 62333952 512-byte logical blocks: (31.9 GB/29.7 GiB)
     ```
-   - write image to microSD card
+   - write image to microSD card<br>
      `sudo dd if=Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img of=/dev/sda bs=4096k status=progress`
 
 ### Image Setup
@@ -96,9 +96,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
     [456060.557997] usb 1-3: Detected FT232RL
     [456060.565508] usb 1-3: FTDI USB Serial Device converter now attached to ttyUSB0
     ```
-  - connect to device
-    `screen /dev/ttyUSB0 115200`
-    Your screen terminal will stay blank. This is normal, leave it running
+  - connect to device<br>
+    `screen /dev/ttyUSB0 115200`<br>
+    Your screen terminal will stay blank. This is normal, leave it running<br>
   - bootup bPi by pluging in microUSB power source
   - wait for the bootup messages finish
 - Once the initial login program starts, enter password and create user as guided
@@ -113,34 +113,34 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
   <img width="49%" src="images/screenshots/nmtui_select.png">
 </p>
 
-- Show ip adress
+- Show ip adress<br>
   `ip a l wlan0 | awk '/inet/ {print $2}'`
 
 ### System Setup
 
 - Login to the bPi using ssh
-- Update system
+- Update system<br>
   `apt-get update && apt-get upgrade`
-- Run `armbian-config` and configure
-  - System->CPU
-	Minimum Speed: 480000
-    Maximum Speed: 480000
-    Governor: powersave
-  - System->Hardware
-	Enable: uart3
+- Run `armbian-config` and configure<>br
+  - System->CPU<br>
+	Minimum Speed: 480000<br>
+    Maximum Speed: 480000<br>
+    Governor: powersave<br>
+  - System->Hardware<br>
+	Enable: uart3<br>
     
 
 ### Required Software
 
-- Install required packages
+- Install required packages<br>
   `apt install python3-pip python3-all-dev libffi-dev rustc cargo`
 
 ### Python Modules
 
-- Install required python modules
-  You will have to change the temporal build dir as /tmp on the bPi is too small and running just `pip3 install` will fail with an disk space error.
-  `mkdir ~/tmp'
-  `TMPDIR=~/tmp pip3 install rnodeconf`
+- Install required python modules<br>
+  You will have to change the temporal build dir as /tmp on the bPi is too small and running just `pip3 install` will fail with an disk space error.<br>
+  `mkdir ~/tmp'<br>
+  `TMPDIR=~/tmp pip3 install rnodeconf`<br>
 
 ### Reticulum
 
