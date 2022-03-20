@@ -118,7 +118,7 @@ Output should be:<br>
 - Once the initial login program starts, enter password and create user as guided
 
 <p align="center" width="100%">
-  <img width="100%" src="images/screenshots/bPi_zero_bootup_small.gif">
+  <img width="49%" src="images/screenshots/bPi_zero_bootup_small.gif">
 </p>
 
 ### Configure Wifi
