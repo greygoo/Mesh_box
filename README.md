@@ -138,7 +138,9 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 ### Python Modules
 
 - Install required python modules
-  `pip3 install rnodeconf`
+  You will have to change the temporal build dir as /tmp on the bPi is too small and running just `pip3 install` will fail with an disk space error.
+  `mkdir ~/tmp'
+  `TMPDIR=~/tmp pip3 install rnodeconf`
 
 ### Reticulum
 
