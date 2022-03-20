@@ -8,13 +8,13 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
   <tr>
     <td>
       <div class="img-with-text">
-        <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg">
+        <img width="99%" src="images/bPi_zero/bPi_zero_front.jpg">
         <p>Banana Pi Zero (frontside)</p>
       </div>
     </td>
     <td>
       <div class="img-with-text">
-        <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg">
+        <img width="99%" src="images/bPi_zero/bPi_zero_back.jpg">
         <p>Banana Pi Zero (backside)</p>
       </div>
     </td>
