@@ -108,6 +108,11 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 - Connect the wifi antenna with the bPi
 - run `nmtui` and use its UI to choose you network and provide credentials
 
+<p align="center" width="100%">
+  <img width="49%" src="images/screenshots/nmtui_startup.png">
+  <img width="49%" src="images/screenshots/nmtui_select.png">
+</p>
+
 ### System Setup
 
 - Login to the bPi using ssh
