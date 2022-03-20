@@ -4,10 +4,11 @@ Documentation and Files for building a Mesh Network Node based on a Banana Pi Ze
 ## Required Hardware
 - Banana Pi Zero
 <p align="center" width="100%">
-  <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg">
-  <p>Banana Pi zero M2 (frontside)</p>
-  <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg">
-  <p>Banana Pi zero M2 (backside)</p>
+  <div class="img-with-text">
+    <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg">
+    <p>Banana Pi Zero (frontside)</p>
+  </div>
+    <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg">
 </p>
 
 - ESP32 based LoRa T3 module
