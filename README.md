@@ -1,45 +1,90 @@
 # Mesh Box
 Documentation and Files for building a Mesh Network Node based on a Banana Pi Zero and Reticulum Stack
 
+This project aims at creating a easy to build reticulum router. Reticulum is a network stack that can be used via TCP/IP, LoRa networks or other forms of rf connections. It is fully encrypted and operates mesh based. For more details please have a look at https://unsigned.io/projects/reticulum/
+
+This makes it possible to use existing internet connections and extend them borderless to own rf based connections. However, other than existing mesh solutions like e.g. meshtastic, it does not run on the LoRa hardware itself but is implemented in python, thus requiring some kind of sbc to run on. 
+
+Thus this project combines a ESP32 Lora microcontroller with an banana pi zero M2 to create a router to enable all computers in a local wifi to use reticulum.
+ 
+
 ## Required Hardware
-- Banana Pi Zero
-<p align="center" width="100%">
-  <table>
-  <tr>
-    <td>
-      <div class="img-with-text">
-        <img width="99%" src="images/bPi_zero/bPi_zero_front.jpg">
-        <p align="center">Banana Pi Zero (frontside)</p>
-      </div>
-    </td>
-    <td>
-      <div class="img-with-text">
-        <img width="99%" src="images/bPi_zero/bPi_zero_back.jpg">
-        <p align="center">Banana Pi Zero (backside)</p>
-      </div>
-    </td>
-  </tr>
-  </table>
+### Banana Pi Zero
+<p>
+The banana pi zero is required to run the reticulum stack. The reason for using a banana pi zero was simply its current availability and exact identical form factor to a raspberry pi sero. It has however 3 additional pins for a serial port, which the rPi lacks and that are used in this project.
+
+**Name** Banana Pi M2 Zero<br>
+**URL** https://wiki.banana-pi.org/Banana_Pi_BPI-M2_ZERO<br>
+**Source** https://www.reichelt.de/banana-pi-m2-zero-1-2-ghz-quad-core-512-mb-ddr3-banana-pi-zero-p218297.html<br>
+
+</p>
+<p align="left" width="60%">
+  <img width="49%" src="images/bPi_zero/bPi_zero_front.jpg">
+  <img width="49%" src="images/bPi_zero/bPi_zero_back.jpg">
 </p>
 
-- ESP32 based LoRa T3 module
-<p align="center" width="100%">
+### ESP32 based LoRa module
+<p>
+The ESP32 LoRa T3 module basically acts as a LoRa network device. It thus requires to have special reticulum compatible firmware flashed.
+
+**Name** LILYGO® TTGO ESP32-Paxcounter LoRa32 V2.1 1.6<br>
+**URL** http://www.lilygo.cn/prod_view.aspx?TypeId=50003&Id=1130&FId=t3:50003:3<br>
+**Source** https://www.ebay.de/itm/164396959192<br>
+**Frequency** 868 Mhz<br>
+
+</p>
+<p align="center" width="60%">
   <img width="49%" src="images/T3/T3_front.jpg">
   <img width="49%" src="images/T3/T3_back.jpg">
 </p>
 
-- Optional: Battery module
-<p align="center" width="100%">
+### Optional: Battery module
+<p>
+The battery module initially was planned as ups for use with solar power, however due to it turning off for a second once the power source is disconnected, this is not feasable. It makes the unit however autonomous for either mobile use or temporary backup power in case of a blackout.
+As I bought some of the modules, I'm still going to built this version, but eventually I'll switch to powering the unit using external usb power banks.
+
+**Name** diymore Battery Shield V8<br>
+**URL** https://www.diymore.cc/products/18650-battery-shield-v8-mobile-power-bank-3v-5v-for-arduino-esp32-esp8266-wifi<br>
+**Source** https://www.ebay.de/itm/402137178128<br>
+
+</p>
+<p align="center" width="60%">
   <img width="49%" src="images/battery/battery_board_front.jpg">
   <img width="49%" src="images/battery/battery_board_back.jpg">
 </p>
 
-- Cables & Connectors
-- WIFI Antenna for Banana Pi Zero
+### Cables
+<p>
 
-<p align="left" width="100%">
+</p>
+
+### Connectors
+<p>
+
+</p>
+
+### WIFI Antenna and cable for Banana Pi Zero
+<p>
+A wifi antenna is required for the banana pi zero as without one it simply has no wifi reception at all. In case a raspberry pi zero is used, the antenna is not needed.
+
+**Name** 2.4GHz WIFI antenna SMA Female<br> 
+**Source** https://www.ebay.de/itm/183989745716<br>
+
+</p>
+<p align="left" width="60%">
   <img width="49%" src="images/antenna/antenna_cables.jpg">
 </p>
+
+
+### SMA - IPEX adapter cable
+<p>
+To connect the antenna with the banana pi zero board, a small adapter cable is required
+
+**Name** RP-SMA(Male) to IPEX/U.FL Pigtail Cable<br>
+**Source** https://www.ebay.de/itm/265495161098<br>
+
+</p>
+
 
 ## Hardware setup
 
