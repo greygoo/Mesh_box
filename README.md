@@ -89,15 +89,37 @@ To connect the antenna with the banana pi zero board, a small adapter cable is r
 ## Hardware setup
 
 ### Connect to bPi Serial Debug Interface
+<p>
+In order to interact with the banana pi zero one can use the HDMI interface, but for most singel board computers, it is much easier to use the serial interface. As most arm boards lack a video bios, this is also often necessary to actualy see the bootloader or kernel messages.
+
+The banana pi zero has three additional pins compared to the raspberry pi zero, and provides a serial port via them. All that is needed, is a serial<->usb adapter and a second computer to display the serial messages from the pi. 
+
+Simply, solder three wires to the three pins and attach a connector. Keep in mind that with serial connections, the TX and RX lines are crossed:
+
+Pi	Serial Adapter
+RX  <-> TX
+TX  <-> RX
+GND <-> GND
+</p>
+<p align="center" width="100%">
+  <img width="32%" src="images/schema/bPi_zero_schema_ftdi.png">
+</p>
+<p>
+Cables soldered to the Banana Pi Zero:
+</p> 
 <p align="center" width="100%">
   <img width="49%" src="images/bPi_zero/bPi_zero_front_with_serial.jpg">
   <img width="49%" src="images/bPi_zero/bPi_zero_back_with_serial.jpg">
 </p>
+
+<p>
+Banana Pi Zero connected to Serial<->USB adapter:
+</p>
 <p align="center" width="100%">
   <img width="32%" src="images/connected/bPi_zero_ftdi.jpg">
   <img width="32%" src="images/connected/bPi_zero_ftdi_usb.jpg">
-  <img width="32%" src="images/schema/bPi_zero_schema_ftdi.png">
 </p>
+
 
 ### Connect bPi with ESP32
 
@@ -202,8 +224,10 @@ Output should be:<br>
 
 - Install required python modules<br>
   You will have to change the temporal build dir as /tmp on the bPi is too small and running just `pip3 install` will fail with an disk space error.<br>
-  `mkdir ~/tmp'<br>
-  `TMPDIR=~/tmp pip3 install rnodeconf`<br>
+  ```
+  mkdir ~/tmp
+  TMPDIR=~/tmp pip3 install rnodeconf
+  ```
 
 ### Reticulum
 
