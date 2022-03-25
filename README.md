@@ -53,6 +53,28 @@ As I bought some of the modules, I'm still going to built this version, but even
   <img width="49%" src="images/battery/battery_board_back.jpg">
 </p>
 
+### WIFI Antenna and cable for Banana Pi Zero
+<p>
+A wifi antenna is required for the banana pi zero as without one it simply has no wifi reception at all. In case a raspberry pi zero is used, the antenna is not needed.
+
+**Name** 2.4GHz WIFI antenna SMA Female<br> 
+**Source** https://www.ebay.de/itm/183989745716<br>
+
+</p>
+<p align="left" width="60%">
+  <img width="49%" src="images/antenna/antenna_cables.jpg">
+</p>
+
+
+### SMA - IPEX adapter cable
+<p>
+To connect the antenna with the banana pi zero board, a small adapter cable is required
+
+**Name** RP-SMA(Male) to IPEX/U.FL Pigtail Cable<br>
+**Source** https://www.ebay.de/itm/265495161098<br>
+
+</p>
+
 ### Cables
 <p>
 3 wire cables are used for the serial connections. In the pictures 4 wires. The length is not relevant, however, if you plan to use the provided 3d printed case, these values fit it:
@@ -83,28 +105,6 @@ For power connections, these connectors are used:
 
 2x JST SM connector male (2 pin)
 2x JST SM connector female (2 pin)
-
-</p>
-
-### WIFI Antenna and cable for Banana Pi Zero
-<p>
-A wifi antenna is required for the banana pi zero as without one it simply has no wifi reception at all. In case a raspberry pi zero is used, the antenna is not needed.
-
-**Name** 2.4GHz WIFI antenna SMA Female<br> 
-**Source** https://www.ebay.de/itm/183989745716<br>
-
-</p>
-<p align="left" width="60%">
-  <img width="49%" src="images/antenna/antenna_cables.jpg">
-</p>
-
-
-### SMA - IPEX adapter cable
-<p>
-To connect the antenna with the banana pi zero board, a small adapter cable is required
-
-**Name** RP-SMA(Male) to IPEX/U.FL Pigtail Cable<br>
-**Source** https://www.ebay.de/itm/265495161098<br>
 
 </p>
 
