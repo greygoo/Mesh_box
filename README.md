@@ -96,18 +96,19 @@ The banana pi zero has three additional pins compared to the raspberry pi zero, 
 
 Simply, solder three wires to the three pins and attach a connector. Keep in mind that with serial connections, the TX and RX lines are crossed:
 
-Pi	Serial Adapter
-RX  <-> TX
-TX  <-> RX
-GND <-> GND
+Pi	Serial Adapter<br>
+RX  <-> TX<br>
+TX  <-> RX<br>
+GND <-> GND<br>
+
 </p>
-<p align="center" width="100%">
-  <img width="32%" src="images/schema/bPi_zero_schema_ftdi.png">
+<p align="center" width="60%">
+  <img width="99%" src="images/schema/bPi_zero_schema_ftdi.png">
 </p>
 <p>
 Cables soldered to the Banana Pi Zero:
 </p> 
-<p align="center" width="100%">
+<p align="center" width="60%">
   <img width="49%" src="images/bPi_zero/bPi_zero_front_with_serial.jpg">
   <img width="49%" src="images/bPi_zero/bPi_zero_back_with_serial.jpg">
 </p>
@@ -115,9 +116,9 @@ Cables soldered to the Banana Pi Zero:
 <p>
 Banana Pi Zero connected to Serial<->USB adapter:
 </p>
-<p align="center" width="100%">
-  <img width="32%" src="images/connected/bPi_zero_ftdi.jpg">
-  <img width="32%" src="images/connected/bPi_zero_ftdi_usb.jpg">
+<p align="center" width="60%">
+  <img width="49%" src="images/connected/bPi_zero_ftdi.jpg">
+  <img width="49%" src="images/connected/bPi_zero_ftdi_usb.jpg">
 </p>
 
 
