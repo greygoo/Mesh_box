@@ -60,7 +60,18 @@ As I bought some of the modules, I'm still going to built this version, but even
 
 ### Connectors
 <p>
+3 wire cables are used for the serial connections. In the pictures 4 wires. The length is not relevant, however, if you plan to use the provided 3d printed case, these values fit it:
 
+1x 8.2cm (Banana Pi Zero M2 - gpio serial)
+1x 6.5cm (Banana Pi Zero M2 - debug serial)
+1x 4 cm (ESP32)
+
+
+2 wire cables are used for the optional power supply. Length used with the 3d printed case:
+
+2x 4.5cm (battery board)
+1x 7.8cm (Banana Pi Zero)
+1x 3.3cm (ESP32)
 </p>
 
 ### WIFI Antenna and cable for Banana Pi Zero
