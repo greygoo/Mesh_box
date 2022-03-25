@@ -132,6 +132,9 @@ Raspberry Pi  <->   ESP32
 Pin6  = GND   <->   GND<br>
 Pin8  = TX    <->   RX<br>
 Pin10 = RX    <->   TX<br>
+
+For details on the pinout of the Banana/Raspbian Pi Zero: https://pinout.xyz/
+
 </p>
 Please note, here the boards already have also power cables connected, these are optional:
 <p>
