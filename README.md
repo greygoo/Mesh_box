@@ -55,11 +55,6 @@ As I bought some of the modules, I'm still going to built this version, but even
 
 ### Cables
 <p>
-
-</p>
-
-### Connectors
-<p>
 3 wire cables are used for the serial connections. In the pictures 4 wires. The length is not relevant, however, if you plan to use the provided 3d printed case, these values fit it:
 
 1x 8.2cm (Banana Pi Zero M2 - gpio serial)<br>
@@ -67,11 +62,28 @@ As I bought some of the modules, I'm still going to built this version, but even
 1x 4 cm (ESP32)
 
 
+Optional:<br>
 2 wire cables are used for the optional power supply. Length used with the 3d printed case:
 
 2x 4.5cm (battery board)<br>
 1x 7.8cm (Banana Pi Zero)<br>
 1x 3.3cm (ESP32)
+</p>
+
+### Connectors
+<p>
+In order to be able to separate the boards, connectors are used on the serial and optional power connections. the following are used:
+
+1x Dupont connector female (6 pin)<br>
+1x JST SM connector female (3 pin)<br>
+1x JST SM connector male (3 pin) 
+
+Optional:<br>
+For power connections, these connectors are used:
+
+2x JST SM connector male (2 pin)
+2x JST SM connector female (2 pin)
+
 </p>
 
 ### WIFI Antenna and cable for Banana Pi Zero
