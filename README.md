@@ -90,11 +90,11 @@ To connect the antenna with the banana pi zero board, a small adapter cable is r
 
 ### Connect to bPi Serial Debug Interface
 <p>
-In order to interact with the banana pi zero one can use the HDMI interface, but for most singel board computers, it is much easier to use the serial interface. As most arm boards lack a video bios, this is also often necessary to actualy see the bootloader or kernel messages.
+In order to interact with the banana pi zero, one can use the HDMI interface, but for most single board computers, it is much easier to use the serial interface. As most arm boards lack a video bios, this is also often necessary to actually see the bootloader or kernel messages.
 
-The banana pi zero has three additional pins compared to the raspberry pi zero, and provides a serial port via them. All that is needed, is a serial<->usb adapter and a second computer to display the serial messages from the pi. 
+The banana pi zero has three additional pins compared to the raspberry pi zero, and provides a serial port via them. All that is needed, is a serial<->usb adapter and a second computer to display the serial messages from the pi.
 
-Simply, solder three wires to the three pins and attach a connector. Keep in mind that with serial connections, the TX and RX lines are crossed:
+To use it, first solder three wires to the three pins and attach a connector. Keep in mind that with serial connections, the TX and RX lines are crossed:
 
 Pi	Serial Adapter<br>
 RX  <-> TX<br>
