@@ -181,8 +181,13 @@ This step is optional. Solder cables to the 5V pins of the battery board and att
 ## Software Setup
 
 - Download Armbian image and checksum<br>
+  Either get the "official" image:<br>
   `wget https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz`<br>
   `wget https://stpete-mirror.armbian.com/archive/bananapim2zero/archive/Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz.asc`
+  
+  Or use a custom build image already including the required reticulum stack and sample application `nomadnet`<br>
+  Please note, this image currently is still WIP and will be replaced by improved versions over time:<br>
+  https://drive.google.com/file/d/1QC5H9WiDliAjp1J49x-_k1hdVQcxskhf/view
 
 - Verify checksum<br>
   `sha256sum -c Armbian_21.08.1_Bananapim2zero_hirsute_edge_5.13.12.img.xz.sha`
