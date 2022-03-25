@@ -169,7 +169,9 @@ Please note, here the boards already have also power cables connected, these are
 </p>
 
 ### Connect with Power Source
-
+<p>
+This step is optional. Solder cables to the 5V pins of the battery board and attach female connectors to them. Note that it si not possible to power a Raspberry/Banana Pi zero using the 3.3V pins.Now also solder cables in the 5V and GND pins of the Banana Pi Zero M2 and the ESP32 board and connect them with the battery board:
+</p>
 <p align="center" width="100%">
   <img width="49%" src="images/battery/battery_with_cables.jpg">
   <img width="49%" src="images/connected/T3_bPi_zero_battery_connected.jpg">
