@@ -96,7 +96,8 @@ The banana pi zero has three additional pins compared to the raspberry pi zero, 
 
 To use it, first solder three wires to the three pins and attach a connector. Keep in mind that with serial connections, the TX and RX lines are crossed:
 
-Pi	Serial Adapter<br>
+Pi  <->	Serial Adapter<br>
+
 RX  <-> TX<br>
 TX  <-> RX<br>
 GND <-> GND<br>
