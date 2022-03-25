@@ -124,7 +124,18 @@ Banana Pi Zero connected to Serial<->USB adapter:
 
 
 ### Connect bPi with ESP32
+<p>
+To not have to deal with USB otg cables and for saving space, the serial connection between the Banana Pi Zero M2 and the ESP32 device is realized via GPIO pins. The required pins on the ESP32 are marked as GND,TX and Rx, while the pins on the Banana Pi Zero M2 are Pins 6,8 and 10. Note, again RX and TX lines are crossed:
 
+Raspberry Pi  <->   ESP32
+
+Pin6  = GND   <->   GND<br>
+Pin8  = TX    <->   RX<br>
+Pin10 = RX    <->   TX<br>
+</p>
+Please note, here the boards already have also power cables connected, these are optional:
+<p>
+</p>
 <p align="center" width="100%">
   <img width="32%" src="images/T3/T3_back_with_cables.jpg">
   <img width="32%" src="images/T3/T3_front_with_cables.jpg">
