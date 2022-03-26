@@ -281,6 +281,9 @@ Output should be:<br>
 
 
 ## Casing
+### TTGO ESP32 LoRa32 only
+In case you don't want to built a stand alone version including an SBC, you can use this case for a TTGO ESP32 LoRa32 module and simply connect it to you Laptop. You then only have to flash the Rnode firmware, connect the module to your computer to use it like a LoRa/reticulum network card. The reticulum stack/nomadnet then needs to be installed on the connected computer(https://github.com/markqvist/nomadnet)
+https://www.thingiverse.com/thing:5330732
 
 ### With Battery
 
